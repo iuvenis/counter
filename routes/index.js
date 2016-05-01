@@ -5,6 +5,6 @@ const express = require('express'),
 
 const counter = require('./counter');
 
-router.use('counter', counter);
+router.use('/counter', counter);
 
-module.exports.router;
+module.exports = router;
